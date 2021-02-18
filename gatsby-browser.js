@@ -135,7 +135,7 @@ exports.onInitialClientRender = (_, options) => {
       }
 
       this.die = function() {
-        // this.element.parentNode.removeChild(this.element)
+        this.element.parentNode.removeChild(this.element)
       }
     }
 
