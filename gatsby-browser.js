@@ -1,13 +1,8 @@
 exports.onInitialClientRender = (_, options) => {
-  /*!
-   * Emoji Cursor.js
-   * - 90's cursors collection
-   * -- https://github.com/tholman/90s-cursor-effects
-   * -- https://codepen.io/tholman/full/rxJpdQ
-   */
 
   ;(function emojiCursor() {
     var possibleEmoji = options.emoji ? options.emoji : ['🐖']
+    var interval = options.interval ? options.interval : 200
     var width = window.innerWidth
     var height = window.innerHeight
     var cursor = { x: width / 2, y: width / 2 }
@@ -45,7 +40,7 @@ exports.onInitialClientRender = (_, options) => {
         wait = true
         setTimeout(function() {
           wait = false
-        }, 200)
+        }, interval)
       }
     }
 
@@ -62,7 +57,7 @@ exports.onInitialClientRender = (_, options) => {
         wait = true
         setTimeout(function() {
           wait = false
-        }, 200)
+        }, interval)
       }
     }
 
@@ -96,7 +91,7 @@ exports.onInitialClientRender = (_, options) => {
      */
 
     function Particle() {
-      this.lifeSpan = 120 //ms
+      this.lifeSpan = options.lifeSpan ? options.lifeSpan : 125 //ms
       this.initialStyles = {
         position: 'absolute',
         display: 'block',

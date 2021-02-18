@@ -23,6 +23,8 @@ plugins: [
     options: {
       emoji: [`🐖`],
       fontSize: `80px`,
+      lifeSpan: 125,
+      interval: 200,
     },
   }
 ],

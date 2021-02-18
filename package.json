@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-plugin-emoji-cursor",
-  "version": "1.0.2",
-  "description": "Gatsby plugin to add emjois which trail behind your cursor",
+  "name": "gatsby-plugin-enhanced-emoji-cursor",
+  "version": "1.0.3",
+  "description": "Gatsby plugin to add emjois which trail behind your cursor. Extra customization.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KyleAMathews/gatsby-plugin-emoji-cursor.git"
+    "url": "git+https://github.com/carlfairclough/gatsby-plugin-enhanced-emoji-cursor"
   },
   "keywords": [
     "gatsby",
@@ -16,10 +16,10 @@
     "cursor",
     "effects"
   ],
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Carl Fairclough <hi@carlfairclough.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KyleAMathews/gatsby-plugin-emoji-cursor/issues"
+    "url": "https://github.com/carlfairclough/gatsby-plugin-enhanced-emoji-cursor/issues"
   },
-  "homepage": "https://github.com/KyleAMathews/gatsby-plugin-emoji-cursor#readme"
+  "homepage": "https://github.com/carlfairclough/gatsby-plugin-enhanced-emoji-cursor#readme"
 }
