@@ -1,8 +1,8 @@
 exports.onInitialClientRender = (_, options) => {
 
   ;(function emojiCursor() {
-    var possibleEmoji = options.emoji ? options.emoji : ['🐖']
-    var interval = options.interval ? options.interval : 200
+    var possibleEmoji = options.emoji ? options.emoji : ['🥬']
+    var interval = options.interval ? options.interval : 25
     var width = window.innerWidth
     var height = window.innerHeight
     var cursor = { x: width / 2, y: width / 2 }
